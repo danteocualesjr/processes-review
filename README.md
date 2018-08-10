@@ -1,6 +1,11 @@
 # processes-review
 Review of C processes
-* [ ] How do you run a C program? What are the advantages?
+* [x] How do you run a C program? What are the advantages?
+- you compile it int an executble file
+- this gives you, speed, control, closer to the machine code,
+
+* disadvantages
+- you do alot of work
 
 ### Can you do a,
 * [ ] fork,
@@ -9,12 +14,12 @@ Review of C processes
 * [ ] pipe
 
 ### What is a 
-* [ ] running process
-* [ ] interruptible process
-* [ ] uninterruptible process
-* [ ] stopped
-* [ ] Zombie process, how and why?
-* [ ] orphan
+* [ ] running process the programming being run
+* [ ] interruptible process is blocked and waiting for an event/ another program to trigger it
+* [ ] uninterruptible process is blocked and wits for hardware conditions to trigger it
+* [ ] stopped the process is not running
+* [ ] Zombie process, how and why? process is complete but remains in the table/ memory space
+* [ ] orphan parent process is done, but the child process is still going
 
 ### practice anything else
 * [ ] anything else....
